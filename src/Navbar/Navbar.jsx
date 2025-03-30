@@ -48,7 +48,6 @@ const Navbar = ({ onSearch }) => {
                 Home
               </NavLink>
             </li>
-
             <li className="hover:text-white transition duration-200">
               <NavLink to="/how-to-use" className="px-2 py-1">
                 How to Use
@@ -102,7 +101,6 @@ const Navbar = ({ onSearch }) => {
                 Home
               </NavLink>
             </li>
-            <li className="w-full"></li>
             <li className="w-full">
               <NavLink
                 to="/how-to-use"

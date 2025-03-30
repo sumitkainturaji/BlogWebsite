@@ -5,6 +5,7 @@ import CountryDetail from './pages/CountryDetail'
 import { BlogProvider } from './context/BlogContext'
 import Navbar from './Navbar/Navbar'
 import './index.css'
+import HowToUse from './pages/Howtouse'
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('')
@@ -15,6 +16,8 @@ const App = () => {
         <Navbar onSearch={setSearchTerm} />
         <Routes>
           <Route path="/" element={<Home searchTerm={searchTerm} />} />
+          <Route path="/how-to-use" element={<HowToUse />} />
+
           <Route path="/country/:name" element={<CountryDetail />} />
         </Routes>
       </Router>

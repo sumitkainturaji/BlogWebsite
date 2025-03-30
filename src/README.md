@@ -1,6 +1,8 @@
-Blog webpage
+install dependencies -> using npm install , clerk , tailwind css , axios , dotenv , react-router-dom
 
-🚀 Features
+How to Run -> npm run dev
+
+Features
 Fetches country data using the REST Countries API
 
 Displays detailed country information (flag, capital, region, population)
@@ -15,7 +17,7 @@ Responsive Navbar with authentication using Clerk.js
 
 Local storage for caching data
 
-🛠️ Tech Stack
+Tech Stack
 React (Functional components, Hooks, Context API)
 
 React Router DOM (Navigation, Dynamic routes)
