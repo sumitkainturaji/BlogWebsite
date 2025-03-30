@@ -1,4 +1,4 @@
-install dependencies -> using npm istall , clerk , tailwind css , axios , dotenv , react-router-dom
+install dependencies -> using npm install , clerk , tailwind css , axios , dotenv , react-router-dom
 
 
 How to Run -> npm run dev 
