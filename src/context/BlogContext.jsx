@@ -61,7 +61,7 @@ export const BlogProvider = ({ children }) => {
 
   return (
     <BlogContext.Provider value={{ countries, blogs, likeBlog }}>
-      <div className="container mx-auto p-4 min-h-screen">{children}</div>
+      <div>{children}</div>
     </BlogContext.Provider>
   )
 }
