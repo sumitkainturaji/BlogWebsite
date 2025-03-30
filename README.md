@@ -1,3 +1,7 @@
+install dependencies  using npm istall , clerk , tailwind css , axios , dotenv , react-router-dom
+How to Run 
+npm run dev 
+
 Features
 Fetches country data using the REST Countries API
 
