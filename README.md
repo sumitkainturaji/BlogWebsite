@@ -1,12 +1,25 @@
-# React + Vite
+Features
+Fetches country data using the REST Countries API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Displays detailed country information (flag, capital, region, population)
 
-Currently, two official plugins are available:
+Blog posts dynamically generated based on country data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Like functionality for blogs
 
-## Expanding the ESLint configuration
+Search bar to filter countries
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Navbar with authentication using Clerk.js
+
+Local storage for caching data
+
+Tech Stack
+React (Functional components, Hooks, Context API)
+
+React Router DOM (Navigation, Dynamic routes)
+
+Tailwind CSS (Modern UI styling)
+
+Axios (API requests)
+
+Clerk.js (Authentication)
